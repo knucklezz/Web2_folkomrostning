@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
 
 <body>
     <div id="wrapper">
@@ -35,24 +37,28 @@
                         <legend>Linje 31</legend>
                         <!-- Text input-->
                         <div class="form-group">
-                            <label class="col-md-4 control-label" for="textinput">Namn</label>
+                            <label class="col-md-4 control-label" for="textinput">Förnamn</label>
                             <div class="col-md-4">
-                                <input id="textinput" name="textinput" type="text" placeholder="Ditt Namn" class="form-control input-md"> </div>
+                                <input id="textinput" name="firstname" type="text" placeholder="Förnamn" class="form-control input-md"> </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="textinput">Efternamn</label>
+                            <div class="col-md-4">
+                                <input id="textinput" name="lastname" type="text" placeholder="Efternamn" class="form-control input-md"> </div>
                         </div>
                         <!-- Text input-->
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="textinput">Mail</label>
                             <div class="col-md-4">
-                                <input id="textinput" name="textinput" type="text" placeholder="Din Mail" class="form-control input-md"> </div>
+                                <input id="textinput" name="mail" type="text" placeholder="Din Mail" class="form-control input-md"> </div>
                         </div>
                         <!-- Text input-->
                         <div class="form-group">
                             <label class="col-md-4 control-label" for="textinput">Ort</label>
                             <div class="col-md-4">
-                                <input id="textinput" name="textinput" type="text" placeholder="Din Boendeort
-                                                                  " class="form-control input-md">
+                                <input id="textinput" name="ort" type="text" placeholder="Din Boendeort" class="form-control input-md">
                                 <br>
-                                <button type="button" class="btn btn-success">Submit</button>
+                                <button class="btn btn-success">Submit</button>
                             </div>
                         </div>
                     </fieldset>
@@ -60,6 +66,9 @@
             </div>
         </div>
     </div>
+    <footer>
+        <p>Niklas Lundström</p>
+    </footer>
 </body>
 
 </html>
