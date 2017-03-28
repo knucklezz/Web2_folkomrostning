@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $("button").click(function () {
-        $.post("form.php", $("form").serialize());
+        $.post("result.php", $("form").serialize());
     });
 });
